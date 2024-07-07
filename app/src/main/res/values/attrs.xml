@@ -2,9 +2,19 @@
 <resources>
 
     <declare-styleable name="circle_view">
-        <attr name="onCenter" format="boolean"/>
+        <attr name="onCenter" format="boolean" />
         <attr name="circle_background" format="color" />
         <attr name="circle_radius" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="MyTextView">
+        <attr name="myText" format="string" />
+        <attr name="myTextColor" format="color" />
+        <attr name="myTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="originalColor" format="color" />
+        <attr name="changeColor" format="color" />
+    </declare-styleable>
 </resources>

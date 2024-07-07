@@ -43,7 +43,7 @@ class TimerView : View {
     var textOffsetY = 0F
     private var updateRunnable: Runnable? = null
     private var time = System.currentTimeMillis()
-    private val MAX_TIME = "00:00:00xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    private val MAX_TIME = "00:00:00"
     init {
         updateRunnable = Runnable { update() }
         start()
